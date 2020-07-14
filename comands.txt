@@ -1,0 +1,8 @@
+git init 
+git add nombre_del_archivo                              //para añadir uno a uno
+git add .                                               //para añadir el proyecto completo
+git status                                              //para seguir el proyecto y ver qué archivos están el el espacio de trabajo
+git config --global user.email "mail@example.com"       //para decirle a git quién ha hecho los cambios y quién hará los commits
+git config --global user.name "username"                //para decirle a git el username de quién ha hecho los cambios...
+git commit                                              //para hacer un snapshot al proyecto (tomarle una foto)
+git log                                                 //da un # que diferencia cada commit del proyecto

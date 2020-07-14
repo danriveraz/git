@@ -6,3 +6,5 @@ git config --global user.email "mail@example.com"       //para decirle a git qui
 git config --global user.name "username"                //para decirle a git el username de quién ha hecho los cambios...
 git commit                                              //para hacer un snapshot al proyecto (tomarle una foto)
 git log                                                 //da un # que diferencia cada commit del proyecto
+git checkout -- index.html                              //para deshacer los cambios de un archivo específico
+git diff index.html                                     //para ver los cambios en un archivo específico
